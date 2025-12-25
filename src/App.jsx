@@ -44,33 +44,33 @@ function App() {
       link: "https://free-image-enhancement.streamlit.app/"
     },
     {
-      title: "AI Content Generator",
-      description: "Platform generasi konten otomatis dengan teknologi GPT-4",
-      tech: ["Next.js", "OpenAI API", "Tailwind"],
+      title: "Search Engine Pariwisata Indonesia",
+      description: "Platform untuk pencarian wisata di Indonesia yang memanfaatkan Next.js untuk frontend, OpenAI API untuk fitur pencarian cerdas, dan Tailwind CSS untuk desain responsif dan modern.",
+      tech: ["Next.js", "OpenAI API", "Tailwind", "Flask", "Python"],
       image: "/searchengine.png",
       link: "https://search-engine-gules-beta.vercel.app/"
     },
-    {
-      title: "Smart Home IoT",
-      description: "Sistem kontrol rumah pintar dengan dashboard real-time",
-      tech: ["React", "IoT", "WebSocket", "AWS"],
-      image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
-      link: "#"
-    },
-    {
-      title: "Smart Home IoT",
-      description: "Sistem kontrol rumah pintar dengan dashboard real-time",
-      tech: ["React", "IoT", "WebSocket", "AWS"],
-      image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
-      link: "#"
-    },
-    {
-      title: "Smart Home IoT",
-      description: "Sistem kontrol rumah pintar dengan dashboard real-time",
-      tech: ["React", "IoT", "WebSocket", "AWS"],
-      image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
-      link: "#"
-    }
+    // {
+    //   title: "Smart Home IoT",
+    //   description: "Sistem kontrol rumah pintar dengan dashboard real-time",
+    //   tech: ["React", "IoT", "WebSocket", "AWS"],
+    //   image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
+    //   link: "#"
+    // },
+    // {
+    //   title: "Smart Home IoT",
+    //   description: "Sistem kontrol rumah pintar dengan dashboard real-time",
+    //   tech: ["React", "IoT", "WebSocket", "AWS"],
+    //   image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
+    //   link: "#"
+    // },
+    // {
+    //   title: "Smart Home IoT",
+    //   description: "Sistem kontrol rumah pintar dengan dashboard real-time",
+    //   tech: ["React", "IoT", "WebSocket", "AWS"],
+    //   image: "https://images.unsplash.com/photo-1558002038-1091a1661116?q=80&w=2070&auto=format&fit=crop",
+    //   link: "#"
+    // }
   ];
 
   const skills = [
