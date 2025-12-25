@@ -12,6 +12,11 @@ function App() {
 
   // Effect untuk Scroll Navbar
   useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durasi animasi
+      once: true,     // Animasi cuma sekali pas discroll ke bawah
+    });
+    
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
@@ -46,7 +51,7 @@ function App() {
     {
       title: "Search Engine Pariwisata Indonesia",
       description: "Platform untuk pencarian wisata di Indonesia yang memanfaatkan Next.js untuk frontend, OpenAI API untuk fitur pencarian cerdas, dan Tailwind CSS untuk desain responsif dan modern.",
-      tech: ["Next.js", "OpenAI API", "Tailwind", "Flask", "Python"],
+      tech: ["Next.js", "OpenAI API", "Tailwind", "Vercel"],
       image: "/searchengine.png",
       link: "https://search-engine-gules-beta.vercel.app/"
     },
@@ -355,10 +360,10 @@ function App() {
               </div>
               <div className="link-group">
                 <h4>Connect</h4>
-                <a href="https://github.com/rafaelhafid257">GitHub</a>
+                <a href="https://github.com">GitHub</a>
                 <a href="https://linkedin.com">LinkedIn</a>
                 <a href="https://twitter.com">Twitter</a>
-                <a href="https://www.instagram.com/raffaelhfd_/">Instagram</a>
+                <a href="https://instagram.com">Instagram</a>
               </div>
             </div>
           </div>
