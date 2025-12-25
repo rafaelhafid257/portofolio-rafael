@@ -355,10 +355,10 @@ function App() {
               </div>
               <div className="link-group">
                 <h4>Connect</h4>
-                <a href="https://github.com">GitHub</a>
+                <a href="https://github.com/rafaelhafid257">GitHub</a>
                 <a href="https://linkedin.com">LinkedIn</a>
                 <a href="https://twitter.com">Twitter</a>
-                <a href="https://instagram.com">Instagram</a>
+                <a href="https://www.instagram.com/raffaelhfd_/">Instagram</a>
               </div>
             </div>
           </div>
